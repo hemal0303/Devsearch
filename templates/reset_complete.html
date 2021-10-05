@@ -1,0 +1,21 @@
+{% extends 'main.html' %}
+
+{% block body %}
+
+
+<main class="formPage my-xl">
+    <div class="content-box">
+        <div class="formWrapper">
+            <h4>Password reset Complete. </h4>
+            <br>
+            <p>Your password has been set. You may go ahead and log in Now.</p>
+
+            <a href="{% url 'login' %}">Login</a>
+
+
+        
+        </div>
+    </div>
+</main>
+
+{% endblock %}
